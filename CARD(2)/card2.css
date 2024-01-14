@@ -1,0 +1,97 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    max-width:1280px ;
+    max-height: 800px;
+    min-width: 1000px;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+
+}
+
+.border:hover{
+    border: 1px;
+
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    background: gray;
+    border-radius: 10px;
+    transition: 1s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 73px -40px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.card1{
+    background-image: url('https://i.pinimg.com/564x/e0/41/c5/e041c517a4d1a263015dec5b722427c0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+
+}
+
+.card1:hover{
+    background-image: url('https://i.pinimg.com/564x/54/65/0f/54650fd710c13d804c22e3d2baf7b437.jpg') ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card1:hover h2{
+    opacity: 1;
+    filter: invert(1);
+}
+.card1:hover .icon{
+    opacity: 1;
+    
+}
+
+
+h2{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    margin-top: -50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.icon{
+    opacity: 0;
+    transition:  1s;
+}
+
+.icons{
+    height: 100px;
+    width: 30px;
+    margin-top: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+
